@@ -400,3 +400,6 @@
 /Users/jlainez/JTest/JourneyTests/obj/Debug/net8.0/JourneyTests.pdb
 /Users/jlainez/JTest/JourneyTests/obj/Debug/net8.0/JourneyTests.genruntimeconfig.cache
 /Users/jlainez/JTest/JourneyTests/obj/Debug/net8.0/ref/JourneyTests.dll
+/Users/jlainez/JTest/JourneyTests/bin/Debug/net8.0/Microsoft.Playwright.NUnit.dll
+/Users/jlainez/JTest/JourneyTests/bin/Debug/net8.0/Microsoft.Playwright.TestAdapter.dll
+/Users/jlainez/JTest/JourneyTests/obj/Debug/net8.0/JourneyTests.sourcelink.json

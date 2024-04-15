@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Microsoft.Playwright": "1.43.0",
+          "Microsoft.Playwright.NUnit": "1.43.0",
           "NUnit": "3.14.0",
           "NUnit.Analyzers": "3.9.0",
           "NUnit3TestAdapter": "4.5.0",
@@ -51,6 +52,33 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Playwright.dll": {
+            "assemblyVersion": "1.43.0.0",
+            "fileVersion": "1.43.0.0"
+          }
+        }
+      },
+      "Microsoft.Playwright.NUnit/1.43.0": {
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.8.0",
+          "Microsoft.Playwright": "1.43.0",
+          "Microsoft.Playwright.TestAdapter": "1.43.0",
+          "NUnit": "3.14.0",
+          "NUnit3TestAdapter": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Playwright.NUnit.dll": {
+            "assemblyVersion": "1.43.0.0",
+            "fileVersion": "1.43.0.0"
+          }
+        }
+      },
+      "Microsoft.Playwright.TestAdapter/1.43.0": {
+        "dependencies": {
+          "Microsoft.Playwright": "1.43.0",
+          "Microsoft.TestPlatform.ObjectModel": "17.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Playwright.TestAdapter.dll": {
             "assemblyVersion": "1.43.0.0",
             "fileVersion": "1.43.0.0"
           }
@@ -400,6 +428,20 @@
       "sha512": "sha512-FvY6w9duxWBXe3gV6MSqvUcdF9daSBfDVUrYKcr4Fyro0nbiCf4hQUsPxx+CJ3P8PtSrzC675oU14qGzcrGNJw==",
       "path": "microsoft.playwright/1.43.0",
       "hashPath": "microsoft.playwright.1.43.0.nupkg.sha512"
+    },
+    "Microsoft.Playwright.NUnit/1.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MnMaAQ9f2TneRtqmXnKBo3HOVlwqA6rv1f/9JmPrhDyygslukvBZU2e3Dr4Rb0W5QieSYuCkiSJjVFm6WLySbw==",
+      "path": "microsoft.playwright.nunit/1.43.0",
+      "hashPath": "microsoft.playwright.nunit.1.43.0.nupkg.sha512"
+    },
+    "Microsoft.Playwright.TestAdapter/1.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-otnayoy2Y8ggXFxImJmveMthPAr2HNv8jwgGFD+nrUgv5QjhTDUMDfBag4J8PTY8HokpwElkZDoGnVrwOmtKNA==",
+      "path": "microsoft.playwright.testadapter/1.43.0",
+      "hashPath": "microsoft.playwright.testadapter.1.43.0.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/17.8.0": {
       "type": "package",
